@@ -8,12 +8,12 @@ import UserRegister from './components/user/UserRegister';
 import UserLogin from './components/User/UserLogin';
 import UserProfile from './components/User/UserProfile';
 import UserLogout from './components/User/userLogout';
+import ContactCreate from './components/Contact/ContactCreate';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-
         <Route element={<Layout />}>
           <Route
             path="/register"
@@ -28,11 +28,18 @@ createRoot(document.getElementById('root')).render(
         
 
         <Route path="/dashboard" element={<DashboardLayout />}>
-          <Route path="contacts" element={<div>Contacts</div>} />
-          <Route path="users/profile" element={<UserProfile/>} />
-          <Route path="users/logout" element={<UserLogout/>} />
-        </Route>
 
+        <Route path="users">
+          <Route path="profile" element={<UserProfile/>} />
+          <Route path="logout" element={<UserLogout/>} />
+        </Route>
+          
+
+        <Route path="contacts">
+          <Route index element={<div>Contacts</div>} />
+          <Route path="create" element={<ContactCreate />} />
+        </Route>
+        </Route>
       </Routes>
     </BrowserRouter>
   </StrictMode>
