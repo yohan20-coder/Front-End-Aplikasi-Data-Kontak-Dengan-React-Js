@@ -122,27 +122,8 @@ DELETE /api/contacts/{id}
 Sistem autentikasi menggunakan token yang disimpan pada Local Storage browser. Token akan digunakan secara otomatis pada setiap permintaan ke API yang memerlukan otorisasi.
 
 ## Tampilan Aplikasi
+<img width="1366" height="633" alt="ScreenShot Tool -20260530220324" src="https://github.com/user-attachments/assets/0897a840-b155-4032-9202-53f154871b41" />
 
-Tambahkan screenshot aplikasi pada folder berikut:
-
-```text
-docs/
-├── login.png
-├── dashboard.png
-├── contact-list.png
-├── contact-detail.png
-└── contact-form.png
-```
-
-Kemudian tampilkan pada README:
-
-```markdown
-## Halaman Login
-
-<img width="1366" height="633" alt="ScreenShot Tool -20260530220324" src="https://github.com/user-attachments/assets/e55a5938-ea56-4c12-8b0b-73447bd6fb74" />
-
-## Daftar Kontak
-<img width="1351" height="1844" alt="ScreenShot Tool -20260530220346" src="https://github.com/user-attachments/assets/88506442-cd77-41b1-8a66-b0bb2b99b5aa" />
 
 ```
 
