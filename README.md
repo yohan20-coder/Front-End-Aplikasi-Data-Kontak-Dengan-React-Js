@@ -139,11 +139,11 @@ Kemudian tampilkan pada README:
 ```markdown
 ## Halaman Login
 
-![Login](docs/login.png)
+<img width="1366" height="633" alt="ScreenShot Tool -20260530220324" src="https://github.com/user-attachments/assets/e55a5938-ea56-4c12-8b0b-73447bd6fb74" />
 
 ## Daftar Kontak
+<img width="1351" height="1844" alt="ScreenShot Tool -20260530220346" src="https://github.com/user-attachments/assets/88506442-cd77-41b1-8a66-b0bb2b99b5aa" />
 
-![Daftar Kontak](docs/contact-list.png)
 ```
 
 ## Script yang Tersedia
